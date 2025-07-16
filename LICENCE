@@ -1,0 +1,36 @@
+# License Summary
+
+This repository contains source code under multiple open source licenses, all source code non-related to third parties is released under GPL 3.0 licence. '*' represents any possibly named directory in the specific directory path.
+
+---
+
+## Apache License 2.0
+
+Applies to:
+- Files:
+    - `*/ERC1400/*/contracts/ERC1400.sol`
+    - `*/ERC1400/*/contracts/IERC1400.sol`
+    - `*/ERC1400/*/contracts/interface/IERC1643.sol`
+- Files in `*/ERC1400/*/contracts/roles` directory
+- Code derived from Project (https://github.com/Consensys/UniversalToken)
+
+See `LICENSE-APACHE` for full license text.
+See `NOTICE` for modification details and attribution.
+
+---
+
+## Creative Commons Zero (CC0)
+
+Applies to any file named `IERC20.sol` and related files based on [EIP-20](https://eips.ethereum.org/EIPS/eip-20)
+
+See `LICENSE-CC0` for public domain dedication.
+Original content available at: https://eips.ethereum.org/EIPS/eip-20
+
+---
+
+## GPL Version 3.0
+Applies to:
+Files in:
+- */ERC3643/*/contracts
+
+In `*/ERC3643/Oracle/contracts/compliance/modular/modules/NonSanctionModule.sol` specific the licence is retained, but the authorship does not belong to Tokeny.

@@ -1,0 +1,20 @@
+{
+  "name": "erc1400-deployer",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "test.js",
+  "scripts": {
+    "test": "npx hardhat test"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "latest"
+  },
+  "devDependencies": {
+    "chai": "^4.3.0",
+    "hardhat": "^2.25.0",
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.9"
+  }
+}

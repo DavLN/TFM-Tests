@@ -1,0 +1,22 @@
+This project includes code from Consensys/UniversalToken (https://github.com/Consensys/UniversalToken) bellow the `ERC1400/` directory, licensed under the Apache License, Version 2.0.
+
+Modifications made by @DavLN over Consensys/UnviversalToken bellow `PERFORMANCE/ERC1400` and `SECURITY/ERC1400` directories as of 2025-07-15, including:
+- Extension support removal
+- canTransfer view operations variants replaced to ease code simplicity
+- In `frozenPartitions/contracts`:
+    - Controller role per partition replaced by global contract, in order to comply with ERC-1400
+    - Controllers are no longer considered operators
+- In `distordedBalances/contracts`:
+    - Balance and supply over the global contract have been modified to exclusively operate over default partitions
+
+
+This project includes code from Tokeny (https://github.com/ERC-3643/ERC-3643/) bellow `PERFORMANCE/ERC3643` and `SECURITY/ERC3643` directories, licensed under the GNU Public Licence, Version 3.0.
+
+Modifications made by @DavLN over Tokeny as of 2025-07-15, including:
+- In `Validator/contracts`:
+    - Removal of identity verification systems per transfer, miniting and burning
+    - Registry identity inclussion standards increased to require verifiable relevant claims by preeviously registred trusted issuers
+
+This project includes code from onchain-id/Solidity (https://github.com/onchain-id/solidity), licensed under the GNU Public Licence, Version 3.0.
+- In `Validator/contracts`
+    - Modification of Identity.sol to ease identity verification and claim addition, by checking if a claim was emited by the issuer, instead of the contract

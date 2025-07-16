@@ -1,0 +1,17 @@
+**/.venv
+**/artifacts
+**/cache
+**/node_modules
+**/.env
+!**/.env.example
+**/package-lock.json
+
+*/ERC20/BNB/contracts/BNB.sol
+*/ERC20/USDT/contracts/tether.sol
+
+PERFORMANCE/csv_output
+PERFORMANCE/individual_charts
+PERFORMANCE/graphs
+PERFORMANCE/latex_output
+
+SECURITY/**/deployment-addresses.json

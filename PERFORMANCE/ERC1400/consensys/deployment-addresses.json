@@ -1,0 +1,80 @@
+{
+  "hardhat": {
+    "deployment": {
+      "contracts": {
+        "Token": {
+          "address": "0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9",
+          "deploymentGas": "4034260",
+          "deploymentLatency": 35.801405,
+          "deploymentFee": "4034260028239820",
+          "initializationGas": "265919",
+          "initializationLatency": 17.962656
+        }
+      },
+      "metrics": {
+        "deploymentGas": "4034260",
+        "deploymentLatency": 35.801405,
+        "deploymentFee": "4034260028239820"
+      }
+    },
+    "initialization": {
+      "metrics": {
+        "initializationGas": "265919",
+        "initializationLatency": 17.962656,
+        "initializationFee": "265919001861433"
+      }
+    }
+  },
+  "sepolia": {
+    "deployment": {
+      "contracts": {
+        "Token": {
+          "address": "0x898Fc35272a56983C2F5506fc98839d953aD9381",
+          "deploymentGas": "4034260",
+          "deploymentLatency": 7752.494679,
+          "deploymentFee": "4841176548160",
+          "initializationGas": "265919",
+          "initializationLatency": 11726.159716
+        }
+      },
+      "metrics": {
+        "deploymentGas": "4034260",
+        "deploymentLatency": 7752.494679,
+        "deploymentFee": "4841176548160"
+      }
+    },
+    "initialization": {
+      "metrics": {
+        "initializationGas": "265919",
+        "initializationLatency": 11726.159716,
+        "initializationFee": "319107054704"
+      }
+    }
+  },
+  "holesky": {
+    "deployment": {
+      "contracts": {
+        "Token": {
+          "address": "0x42284C77d72532C60e264028177d9581873Bb805",
+          "deploymentGas": "4034260",
+          "deploymentLatency": 16143.148063,
+          "deploymentFee": "4034308411120",
+          "initializationGas": "265919",
+          "initializationLatency": 10666.602612
+        }
+      },
+      "metrics": {
+        "deploymentGas": "4034260",
+        "deploymentLatency": 16143.148063,
+        "deploymentFee": "4034308411120"
+      }
+    },
+    "initialization": {
+      "metrics": {
+        "initializationGas": "265919",
+        "initializationLatency": 10666.602612,
+        "initializationFee": "265922191028"
+      }
+    }
+  }
+}

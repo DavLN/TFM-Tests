@@ -1,0 +1,108 @@
+{
+  "hardhat": {
+    "deployment": {
+      "contracts": {
+        "token": {
+          "address": "0xF09d18a431C56E859885B37582BD6BDd2333b54C",
+          "deploymentGas": "3107212",
+          "deploymentFee": "3107212021750484"
+        },
+        "identityRegistry": {
+          "address": "0x02e2F86748f46AB043D82C464f0F51147F2B52d3",
+          "deploymentGas": "2034689",
+          "deploymentFee": "2034689014242823"
+        },
+        "identityRegistryStorage": {
+          "address": "0x8Ff9c3CF91B09c380aedAA030eE5dA1Ef6BCb278",
+          "deploymentGas": "1033016",
+          "deploymentFee": "1033016007231112"
+        },
+        "trustedIssuersRegistry": {
+          "address": "0xe6F314143AE46b5b0594Ae7C88e6A39D36964bb7",
+          "deploymentGas": "1176488",
+          "deploymentFee": "1176488008235416"
+        },
+        "claimTopicsRegistry": {
+          "address": "0x422f02546F2e5E3dE3A52962f0220498030e1669",
+          "deploymentGas": "482260",
+          "deploymentFee": "482260003375820"
+        },
+        "modularCompliance": {
+          "address": "0x8f9BE2DA37662Ad5CcfE233CDbBEF5F5C4480666",
+          "deploymentGas": "1266889",
+          "deploymentFee": "1266889008868223"
+        },
+        "tokenIdentity": {
+          "address": "0x4Ff8788C61abC77d0e8dC6e7469857F654C0df03",
+          "deploymentGas": "2451065",
+          "deploymentFee": "2451065017157455"
+        }
+      },
+      "metrics": {
+        "deploymentGas": "16806117",
+        "deploymentLatency": 140.945083,
+        "deploymentFee": "16806117117642820"
+      }
+    },
+    "initialization": {
+      "metrics": {
+        "initializationGas": "2054647",
+        "initializationLatency": 248.72629,
+        "initializationFee": "2054647014382529"
+      }
+    }
+  },
+  "holesky": {
+    "deployment": {
+      "contracts": {
+        "token": {
+          "address": "0x1d1E6Fc5de31aa95823BE1a0E60d2861493e594D",
+          "deploymentGas": "3107212",
+          "deploymentFee": "3417967379332"
+        },
+        "identityRegistry": {
+          "address": "0x65420c98426f41D5f0a1fB6937fAb9050aFa8229",
+          "deploymentGas": "2034689",
+          "deploymentFee": "2238180281579"
+        },
+        "identityRegistryStorage": {
+          "address": "0x7c8A1E405aA89Fad3c4A4109b30234963779eD82",
+          "deploymentGas": "1033016",
+          "deploymentFee": "1136328963176"
+        },
+        "trustedIssuersRegistry": {
+          "address": "0xFf16b562b824A251FBC65588a59C6FF5C002b88b",
+          "deploymentGas": "1176488",
+          "deploymentFee": "1411800894344"
+        },
+        "claimTopicsRegistry": {
+          "address": "0x2b8f83FB41F79620BD4e2eAaa911C07941810eeF",
+          "deploymentGas": "482260",
+          "deploymentFee": "578718269380"
+        },
+        "modularCompliance": {
+          "address": "0x01cf98687619a0ddE66f605F208cfE021dd37387",
+          "deploymentGas": "1266889",
+          "deploymentFee": "1520283269557"
+        },
+        "tokenIdentity": {
+          "address": "0x171eECfD7C3d973058aFC39Be049F4bE7bb1536C",
+          "deploymentGas": "2451065",
+          "deploymentFee": "2941309863845"
+        }
+      },
+      "metrics": {
+        "deploymentGas": "16806117",
+        "deploymentLatency": 144858.013444,
+        "deploymentFee": "19059836927557"
+      }
+    },
+    "initialization": {
+      "metrics": {
+        "initializationGas": "2054635",
+        "initializationLatency": 309138.193389,
+        "initializationFee": "2127649946284"
+      }
+    }
+  }
+}

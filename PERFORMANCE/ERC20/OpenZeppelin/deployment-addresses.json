@@ -1,0 +1,53 @@
+{
+  "hardhat": {
+    "deployment": {
+      "contracts": {
+        "Token": {
+          "address": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+          "deploymentGas": "966481",
+          "deploymentLatency": 25.376333,
+          "deploymentFee": "966481006765367"
+        }
+      },
+      "metrics": {
+        "deploymentGas": "966481",
+        "deploymentLatency": 25.376333,
+        "deploymentFee": "966481006765367"
+      }
+    }
+  },
+  "sepolia": {
+    "deployment": {
+      "contracts": {
+        "Token": {
+          "address": "0xFD4fFE25441d9420BC268269c442B34C6110b12b",
+          "deploymentGas": "966493",
+          "deploymentLatency": 4904.956036,
+          "deploymentFee": "1160146302931"
+        }
+      },
+      "metrics": {
+        "deploymentGas": "966493",
+        "deploymentLatency": 4904.956036,
+        "deploymentFee": "1160146302931"
+      }
+    }
+  },
+  "holesky": {
+    "deployment": {
+      "contracts": {
+        "Token": {
+          "address": "0xcce1f696A4d512840A33318390afF698DFe5391E",
+          "deploymentGas": "966493",
+          "deploymentLatency": 14739.96103,
+          "deploymentFee": "966503631423"
+        }
+      },
+      "metrics": {
+        "deploymentGas": "966493",
+        "deploymentLatency": 14739.96103,
+        "deploymentFee": "966503631423"
+      }
+    }
+  }
+}
